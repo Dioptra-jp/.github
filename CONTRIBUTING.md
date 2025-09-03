@@ -222,7 +222,7 @@ ticket は projects の課題番号 (#000)を記載．
 
 ## プルリクエスト
 
-PR 発行時には，[テンプレート](PULL_REQUEST_TEMPLATE/code_pr.md)を使用する．
+PR 発行時には，テンプレートの使用を推奨する．
 他者にレビューを依頼する際には使用を必須とする．
 
 発行手順:
@@ -234,9 +234,9 @@ PR 発行時には，[テンプレート](PULL_REQUEST_TEMPLATE/code_pr.md)を�
 5. レビュワーからのフィードバックに基づいて修正を行う
 6. すべての修正が完了し，承認された後レビュワーが PR をマージしクローズする
 
-発行する PR に適したテンプレートを選択:
+発行する PR に適したテンプレートを以下より選択:
 
-- [pull_request_template.md](pull_request_template.md)
+- [pull_request_template.md](pull_request_template.md) (デフォルト)
 - [PULL_REQUEST_TEMPLATE/docs_pr.md](PULL_REQUEST_TEMPLATE/docs_pr.md)
 
 <!--
