@@ -1,3 +1,5 @@
+<!-- I want to review in Japanese. -->
+
 ## 変更内容 (What does this PR do?) (MUST)
 
 <!--
@@ -56,13 +58,13 @@
 
 ## 補足 (OPTIONAL)
 
+<!-- for GitHub Copilot review  rule-->
+
 <!-- レビュアーに伝えておきたいこと，注意点など -->
 
 <!-- ========================== divider ============================ -->
 <!-- for GitHub Copilot review rule -->
 <!--
-I want to review in Japanese.
-
 レビューする際には、以下のprefix(接頭辞)をつけてください
 [must]
 [imo] (in my opinion)
@@ -71,3 +73,4 @@ I want to review in Japanese.
 [fyi]
 -->
 <!-- for GitHub Copilot review  rule-->
+<!-- I want to review in Japanese. -->
