@@ -2,9 +2,9 @@
 
 ## .gitignore の設定
 
-[.gitignore](.gitignore)をベースに作成することを推奨する．
+[.gitignore](https://github.com/Dioptra-jp/.github/blob/main/.gitignore)をベースに作成することを推奨する．
 
-以下のルールに従って設定：
+作成時は以下のルールに従って設定：
 
 - 環境固有のファイル（IDE 設定、OS の一時ファイルなど）は無視する
 - ビルド成果物やキャッシュファイルは常に無視する
