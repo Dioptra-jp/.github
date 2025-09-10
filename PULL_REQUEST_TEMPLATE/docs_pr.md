@@ -1,3 +1,5 @@
+<!-- I want to review in Japanese. -->
+
 ## 変更内容 (What documentation did you update?) (MUST)
 
 <!--
@@ -30,3 +32,16 @@ Refs #456
 ## 補足 (OPTIONAL)
 
 <!-- レビュアーに伝えておきたいこと，注意点など -->
+
+<!-- ========================== divider ============================ -->
+<!-- for GitHub Copilot review rule -->
+<!--
+レビューする際には、以下のprefix(接頭辞)をつけてください
+[must]
+[imo] (in my opinion)
+[nits](nitpick)
+[ask]
+[fyi]
+-->
+<!-- for GitHub Copilot review  rule-->
+<!-- I want to review in Japanese. -->
