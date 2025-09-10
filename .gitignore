@@ -57,3 +57,8 @@ $RECYCLE.BIN/
 .nfs*
 # nohup output
 nohup.out
+
+# Environment files
+.env
+.env.local
+.env.*.local
