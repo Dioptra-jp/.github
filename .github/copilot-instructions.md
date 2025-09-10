@@ -1,6 +1,6 @@
 # Code review Instructions for GitHub Copilot
 
-When performing code reviews, please always respond in English.
+When performing code reviews, please always respond in Japanese.
 コードレビューを行う際は，必ず日本語で回答してください．
 
 レビューコメントには，コメントの重要度と種類を示すため，以下の prefix (接頭辞) のいずれかを必ずつけてください:
