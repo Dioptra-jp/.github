@@ -1,0 +1,59 @@
+# OS generated files
+
+# macOS
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[
+]
+# macOS Thumbnails
+._*
+# macOS Volume Files
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# macOS AFP Share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# Thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+# Dump files
+*.stackdump
+# Folder config
+[Dd]esktop.ini
+# Recycle Bin
+$RECYCLE.BIN/
+# Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+# Shortcuts
+*.lnk
+
+# Linux
+*~
+# Temporary files
+.fuse_hidden*
+# KDE Dolphin
+.directory
+# Trash folder
+.Trash-*
+# NFS files
+.nfs*
+# nohup output
+nohup.out
