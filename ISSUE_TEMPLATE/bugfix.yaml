@@ -1,0 +1,5 @@
+name: bug
+description: bug management template
+title: "[BUG]"
+labels: ["bug"]
+body: []
