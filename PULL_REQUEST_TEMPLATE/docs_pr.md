@@ -10,7 +10,7 @@
 - 開発手順の修正 など
  -->
 
-## 関連 Issue (MUST)
+## 関連 Issue (SHOULD)
 
 <!--
 関連するIssueや課題があれば
