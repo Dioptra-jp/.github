@@ -12,6 +12,31 @@
 - 機密情報（API キー、パスワード、証明書）は必ず`.gitignore`に追加する
 - プロジェクト固有の`.gitignore`テンプレートは[GitHub のリポジトリ](https://github.com/github/gitignore)を参照
 
+## ブランチ命名
+
+ルール: [Conventional Branch](https://conventional-branch.github.io/) を採用
+フォーマット: `<type>/<description>-<optional ticket>`
+
+type の例:
+
+- main: メインブランチ
+- develop(dev): 次期リリースのための開発ブランチ
+- feature/: 新機能のため
+- bugfix/: バグ修正のため
+- hotfix/: 緊急修正のため
+- release/: リリース準備のためのブランチ
+- chore/: 依存関係やドキュメント更新などのコード以外のタスクのため
+
+ticket は projects の課題番号 (#000)を記載．
+短い説明だけでも意味が通るようにする．
+
+ブランチ名の例:
+
+- feature/add-login-123
+- fix/null-pointer-456
+- chore/update-deps
+- release/v1.2.0
+
 ## コミット
 
 ルール: [Conventional Commits](https://www.conventionalcommits.org/ja/v1.0.0/) を採用
@@ -196,31 +221,6 @@ Emergency fix. Merge to main and deploy immediately.
 description は命令形で簡潔に記述し，body が必要な場合は空行で本文を追加．
 メッセージの記述には copilot による自動生成も積極的に活用することを推奨する．
 自動生成されたメッセージは必ず内容を確認し，必要に応じて修正すること．
-
-## ブランチ命名
-
-ルール: [Conventional Branch](https://conventional-branch.github.io/) を採用
-フォーマット: `<type>/<description>-<optional ticket>`
-
-type の例:
-
-- main: メインブランチ
-- develop(dev): 次期リリースのための開発ブランチ
-- feature/: 新機能のため
-- bugfix/: バグ修正のため
-- hotfix/: 緊急修正のため
-- release/: リリース準備のためのブランチ
-- chore/: 依存関係やドキュメント更新などのコード以外のタスクのため
-
-ticket は projects の課題番号 (#000)を記載．
-短い説明だけでも意味が通るようにする．
-
-ブランチ名の例:
-
-- feature/add-login-123
-- fix/null-pointer-456
-- chore/update-deps
-- release/v1.2.0
 
 ## プルリクエスト
 
