@@ -1,3 +1,19 @@
+# タスクの進め方
+
+Projects の Issue をベースにタスクを進める．
+
+タスクの進捗管理や実装に関しての円滑な議論，CI 導入時の細かい単位でのテスト実行の実現のため Issue 着手時は **Draft PR** の発行を必須とする．
+発行手順:
+
+1. Issue に紐づくブランチを作成(ブランチ命名則: [## ブランチ命名](#ブランチ命名)を参照)
+2. ブランチ上で空コミットを行う．
+   ```bash
+   git commit --allow-empty -m "chore: start working on #<issue-number>"
+   ```
+3. Draft PR を発行し，変更内容と関連 Issue を記載する．
+4. 作業を進め，必要に応じてコミットを積み重ねる．
+5. 作業完了後，Draft PR に必要な内容(テスト項目等)を記載し `Ready for review` に変更する．(PR の詳細は[## プルリクエスト](#プルリクエスト)を参照)
+
 # コーディング規約
 
 ## .gitignore の設定
@@ -11,6 +27,31 @@
 - 依存関係のディレクトリ（`node_modules`、`vendor`など）はリポジトリに含めない
 - 機密情報（API キー、パスワード、証明書）は必ず`.gitignore`に追加する
 - プロジェクト固有の`.gitignore`テンプレートは[GitHub のリポジトリ](https://github.com/github/gitignore)を参照
+
+## ブランチ命名
+
+ルール: [Conventional Branch](https://conventional-branch.github.io/) を採用
+フォーマット: `<type>/<description>-<optional ticket>`
+
+type の例:
+
+- main: メインブランチ
+- develop(dev): 次期リリースのための開発ブランチ
+- feature/: 新機能のため
+- bugfix/: バグ修正のため
+- hotfix/: 緊急修正のため
+- release/: リリース準備のためのブランチ
+- chore/: 依存関係やドキュメント更新などのコード以外のタスクのため
+
+ticket は projects の課題番号 (#000)を記載．
+短い説明だけでも意味が通るようにする．
+
+ブランチ名の例:
+
+- feature/add-login-123
+- fix/null-pointer-456
+- chore/update-deps
+- release/v1.2.0
 
 ## コミット
 
@@ -197,44 +238,18 @@ description は命令形で簡潔に記述し，body が必要な場合は空行
 メッセージの記述には copilot による自動生成も積極的に活用することを推奨する．
 自動生成されたメッセージは必ず内容を確認し，必要に応じて修正すること．
 
-## ブランチ命名
-
-ルール: [Conventional Branch](https://conventional-branch.github.io/) を採用
-フォーマット: `<type>/<description>-<optional ticket>`
-
-type の例:
-
-- main: メインブランチ
-- develop(dev): 次期リリースのための開発ブランチ
-- feature/: 新機能のため
-- bugfix/: バグ修正のため
-- hotfix/: 緊急修正のため
-- release/: リリース準備のためのブランチ
-- chore/: 依存関係やドキュメント更新などのコード以外のタスクのため
-
-ticket は projects の課題番号 (#000)を記載．
-短い説明だけでも意味が通るようにする．
-
-ブランチ名の例:
-
-- feature/add-login-123
-- fix/null-pointer-456
-- chore/update-deps
-- release/v1.2.0
-
 ## プルリクエスト
-
-PR 発行時には，テンプレートの使用を推奨する．
-他者にレビューを依頼する際には使用を必須とする．
 
 発行手順:
 
-1. 自身でテストを行い動作確認を行う
-2. Copilot によるコードレビューを実施する
-3. Copilot のレビュー結果に基づいて必要な修正を行う
-4. レビュワーをアサインする
-5. レビュワーからのフィードバックに基づいて修正を行う
-6. すべての修正が完了し，承認された後レビュワーが PR をマージしクローズする
+1. テンプレートに従ってPRの内容を記載する
+2. 自身でテストを行い動作確認を行う
+3. Copilot によるコードレビューを実施する
+4. Copilot のレビュー結果に基づいて必要な修正を行う
+5. レビュワーをアサインする
+6. レビュワーからのフィードバックに基づいて修正を行う
+7. すべての修正が完了し，承認された後レビュワーが PR をマージしクローズする
+8. クローズ後されたブランチは原則削除する
 
 発行する PR に適したテンプレートを以下より選択:
 
