@@ -6,7 +6,7 @@ Projects の Issue をベースにタスクを進める．
 
 発行手順:
 
-1. Issue に紐づくブランチを作成．(ブランチ命名則: [## ブランチ命名](#ブランチ命名)を参照)
+1. Issueの右フィールドのDevelopmentで`Create a branch`する．(ブランチ命名則: [## ブランチ命名](#ブランチ命名)を参照)
 2. ブランチ上で空コミットを行う．
    ```bash
    git commit --allow-empty -m "chore: start working on #<issue-number>"
@@ -32,6 +32,7 @@ Projects の Issue をベースにタスクを進める．
 ## ブランチ命名
 
 ルール: [Conventional Branch](https://conventional-branch.github.io/) を採用
+
 フォーマット: `<type>/<description>-<optional ticket>`
 
 type の例:
