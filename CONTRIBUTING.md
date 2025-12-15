@@ -11,7 +11,7 @@ Projects の Issue をベースにタスクを進める．
    ```bash
    git commit --allow-empty -m "chore: start working on #<issue-number>"
    ```
-3. Draft PR を発行し，変更内容と関連 Issue を記載する．
+3. devをベースブランチとしてDraft PR を発行し，変更内容と関連 Issue を記載する．
 4. 作業を進め，必要に応じてコミットを積み重ねる．
 5. 作業完了後，Draft PR に必要な内容(テスト項目等)を記載し `Ready for review` に変更する．(PR の詳細は[## プルリクエスト](#プルリクエスト)を参照)
 
