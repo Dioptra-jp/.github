@@ -60,6 +60,11 @@
 
 <!--
 プレビューリンクや，参考にしたドキュメント類を記載してください．
+例:
+https://example.com/preview-link
+
+- PRのテンプレートに関するドキュメント: https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+- GithubでのMarkdown: https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
  -->
 
 <!-- for GitHub Copilot review  rule-->
