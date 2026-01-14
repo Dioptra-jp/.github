@@ -1,21 +1,26 @@
-<!-- I want to review in Japanese. -->
-
-## 変更内容 (What documentation did you update?) (MUST)
+## 変更内容 (What does this PR do?) (MUST)
 
 <!--
 どのドキュメントを、なぜ更新したのか
 
+例:
 - README.md の更新
 - API 使用例の追加
 - 開発手順の修正 など
  -->
+
+### CodeRabbit サマリ
+
+@coderabbitai summary
 
 ## 関連 Issue (SHOULD)
 
 <!--
 関連するIssueや課題があれば
 
-Refs #456
+例:
+Close #123
+Ref #456
  -->
 
 ## チェックリスト (MUST)
@@ -31,17 +36,13 @@ Refs #456
 
 ## 補足 (OPTIONAL)
 
-<!-- レビュアーに伝えておきたいこと，注意点など -->
-
-<!-- ========================== divider ============================ -->
-<!-- for GitHub Copilot review rule -->
 <!--
-レビューする際には、以下のprefix(接頭辞)をつけてください
-[must]
-[imo] (in my opinion)
-[nits](nitpick)
-[ask]
-[fyi]
+レビュアーに伝えておきたいこと，注意点などがあれば記載してください．
+またプレビューリンクや，参考にしたドキュメント類を記載してください．
+
+例:
+https://example.com/preview-link
+
+- PRのテンプレートに関するドキュメント: https://docs.github.com/ja/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+- GithubでのMarkdown: https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 -->
-<!-- for GitHub Copilot review  rule-->
-<!-- I want to review in Japanese. -->
